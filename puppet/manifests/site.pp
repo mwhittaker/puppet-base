@@ -9,7 +9,12 @@ class { 'baseconfig':
 }
 
 include baseconfig
+include gpp
+include llvm
 include vim
 include gvim
 include git
 include chromium
+include curl
+include valgrind
+include rust
