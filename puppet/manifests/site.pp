@@ -19,3 +19,4 @@ include curl
 include valgrind
 include rust
 include pip
+include python
