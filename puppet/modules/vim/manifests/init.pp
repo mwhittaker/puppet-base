@@ -27,11 +27,11 @@ class vim {
     }
    
     file { 'viminfo':
-      path   => '/home/vagrant/.viminfo',
-      owner  => "vagrant",
-      group  => "vagrant",
-      ensure => present,
-      mode   => 0644;
+        path   => '/home/vagrant/.viminfo',
+        owner  => "vagrant",
+        group  => "vagrant",
+        ensure => present,
+        mode   => 0644;
     }
 
     exec { "BundleInstall":
