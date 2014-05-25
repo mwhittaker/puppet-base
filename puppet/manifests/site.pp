@@ -12,6 +12,7 @@ include baseconfig
 include gpp
 include llvm
 include vim
+include emacs
 include gvim
 include git
 include chromium
