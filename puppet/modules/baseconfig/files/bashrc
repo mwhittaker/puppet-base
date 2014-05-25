@@ -120,3 +120,8 @@ fi
 if [ -f ~/.bash_path ]; then
     . ~/.bash_path
 fi
+
+# aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi

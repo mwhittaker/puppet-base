@@ -21,3 +21,4 @@ include rust
 include pip
 include python
 include ocaml
+include opam
