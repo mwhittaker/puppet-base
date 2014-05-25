@@ -20,3 +20,4 @@ include valgrind
 include rust
 include pip
 include python
+include ocaml
