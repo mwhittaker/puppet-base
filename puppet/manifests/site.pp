@@ -29,3 +29,4 @@ include ruby
 include nodejs
 include jekyll
 include tree
+include mongo
