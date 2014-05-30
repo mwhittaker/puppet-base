@@ -30,7 +30,7 @@ class opam {
     }
 
     exec { "opam-packages":
-        command     => "/usr/bin/opam install utop",
+        command     => "/usr/bin/opam install -y utop",
         user        => "vagrant",
         environment => ["HOME=/home/vagrant"],
         timeout     => 3600,
