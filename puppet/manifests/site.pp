@@ -25,3 +25,7 @@ include ocaml
 include opam
 include latex
 include evince
+include ruby
+include nodejs
+include jekyll
+include tree
