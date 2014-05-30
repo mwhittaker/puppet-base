@@ -9,6 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.ssh.forward_x11   = true
     config.vm.hostname       = "vm"
     config.ssh.forward_agent = true
+    config.vm.network "forwarded_port", guest: 4000, host: 4000
 
     config.vm.provision "puppet" do |puppet|
         puppet.manifests_path = "puppet/manifests"
