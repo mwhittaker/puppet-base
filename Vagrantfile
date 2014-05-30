@@ -5,9 +5,10 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-    config.vm.box          = "ubuntu/trusty32"
-    config.ssh.forward_x11 = true
-    config.vm.hostname     = "vm"
+    config.vm.box            = "ubuntu/trusty32"
+    config.ssh.forward_x11   = true
+    config.vm.hostname       = "vm"
+    config.ssh.forward_agent = true
 
     config.vm.provision "puppet" do |puppet|
         puppet.manifests_path = "puppet/manifests"
