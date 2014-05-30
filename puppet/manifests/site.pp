@@ -23,3 +23,5 @@ include pip
 include python
 include ocaml
 include opam
+include latex
+include evince
