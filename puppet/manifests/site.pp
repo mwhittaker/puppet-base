@@ -30,3 +30,4 @@ include nodejs
 include jekyll
 include tree
 include mongo
+include verilog
