@@ -1,3 +1,5 @@
+include pip
+
 class mongo {
     package { "mongodb":
         ensure => "installed";
@@ -8,5 +10,11 @@ class mongo {
         group => 'vagrant',
         mode  => '0644',
         source => 'puppet:///modules/mongo/mongorc.js';
+    }
+
+    package { "pymongo":
+        ensure   => "installed",
+        provider => "pip",
+        require  => Class["pip"];
     }
 }
