@@ -19,6 +19,7 @@ include chromium
 include curl
 include valgrind
 include rust
+include golang
 include pip
 include python
 include ocaml
