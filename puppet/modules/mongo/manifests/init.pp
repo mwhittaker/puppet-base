@@ -17,8 +17,4 @@ class mongo {
         provider => "pip",
         require  => Class["pip"];
     }
-
-    package { "robomongo":
-        ensure => "installed";
-    }
 }
