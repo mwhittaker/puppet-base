@@ -16,4 +16,11 @@ class baseconfig {
         mode  => '0644',
         source => 'puppet:///modules/baseconfig/bash_aliases';
     }
+    
+    file { '/home/vagrant/.tmux.conf':
+        owner => 'vagrant',
+        group => 'vagrant',
+        mode  => '0644',
+        source => 'puppet:///modules/baseconfig/tmux.conf';
+    }
 }

@@ -32,3 +32,4 @@ include jekyll
 include tree
 include mongo
 include verilog
+include tmux
