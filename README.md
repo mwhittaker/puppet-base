@@ -1,1 +1,1 @@
-**DEPRECATED.** Use [https://github.com/mwhittaker/vms][] instead.
+**DEPRECATED.** Use [https://github.com/mwhittaker/vms]() instead.
